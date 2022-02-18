@@ -21,8 +21,8 @@ export default {
   },
   mounted() {
     const octo = new Octokat({
-      username: "mulukcode@gmail.com",
-      password: "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"
+      username: process.env.api_us_mk,
+      password: process.env.api_to_mk
     })
     var cb = function (err, val) { console.log(val) }
  
