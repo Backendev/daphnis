@@ -4,6 +4,12 @@
       | {{ msg }}
 </template>
 
+<template lang="pug">
+  #contenedor
+    div
+    nombre
+</template>
+
 <script>
 export default {
   name: 'Principal',
