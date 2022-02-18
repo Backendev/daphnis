@@ -14,7 +14,7 @@ export default {
   name: 'Principal',
   data () {
     return {
-      msg: 'Proy Daphnis',
+      msg: 'Proy Daphnis !!',
       data: {}
     }
   },
