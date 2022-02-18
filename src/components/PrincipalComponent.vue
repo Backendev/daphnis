@@ -3,8 +3,9 @@
     div
       | {{ msg }}
       br
-      | Datos:
-      | {{ data }}
+      div(v-for="i in data.data")
+        | {{ i.dat1 }}
+        br
 </template>
 
 <script>
@@ -30,14 +31,15 @@ export default {
     const repo = octo.repos('muluk-code','dbdaphnis')
     repo.contents('db.json').read()
     .then((contents) => {
-      this.data = contents
+      this.data = JSON.parse(contents)
+      console.log(this.data.data)
     });
   }
 }
 </script>
 
 
-<style scoped>
+<style>
 h1, h2 {
   font-weight: normal;
 }
