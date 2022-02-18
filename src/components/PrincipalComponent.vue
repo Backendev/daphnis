@@ -15,7 +15,8 @@ export default {
   data () {
     return {
       msg: 'Proy Daphnis',
-      data: {}
+      data: {},
+      other: 2
     }
   },
   mounted() {
