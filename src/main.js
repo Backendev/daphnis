@@ -3,9 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import nombre from './components/oneApp'
+
+import nombre from './components/oneApp'           
 
 Vue.component ('nombre', nombre),
+
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

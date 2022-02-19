@@ -4,9 +4,10 @@
       | {{ msg }}
 </template>
 
+
 <template lang="pug">
   #contenedor
-    div
+    div                           
     nombre
 </template>
 
