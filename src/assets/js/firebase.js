@@ -4,6 +4,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, collection as co, getDocs , query, where,setDoc,doc} from 'firebase/firestore';
 import { getDatabase,ref, child, get } from "firebase/database";
 
+//dd
 const api_key = process.env.firebase_apikey
 const db_fb = {
     firebaseConfig : {
