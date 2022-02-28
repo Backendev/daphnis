@@ -1,0 +1,1694 @@
+{
+    "results": [
+        {
+            "descripcion": " mostrar la arquitectura de la maquina (1)",
+            "comando": "arch",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar la arquitectura de la maquina (2)",
+            "comando": "uname -m",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar la version del kernel usado",
+            "comando": "uname -r",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar los componentes (hardware) del sistema",
+            "comando": "dmidecode -q",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar las caracteristicas de un disco duro",
+            "comando": "hdparm -i /dev/hda",
+            "categoria": 1
+        },
+        {
+            "descripcion": " realizar prueba de lectura en un disco duro",
+            "comando": "hdparm -tT /dev/sda",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar informacion de la CPU",
+            "comando": "cat /proc/cpuinfo",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar las interrupciones",
+            "comando": "cat /proc/interrupts",
+            "categoria": 1
+        },
+        {
+            "descripcion": " verificar el uso de memoria",
+            "comando": "cat /proc/meminfo",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar ficheros swap",
+            "comando": "cat /proc/swaps",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar la version del kernel",
+            "comando": "cat /proc/version",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar adaptadores de red y estadisticas",
+            "comando": "cat /proc/net/dev",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar el sistema de ficheros montado",
+            "comando": "cat /proc/mounts",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar los dispositivos PCI",
+            "comando": "lspci -tv",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar los dispositivos USB",
+            "comando": "lsusb -tv",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar la fecha del sistema",
+            "comando": "date",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar el almanaque de 2011",
+            "comando": "cal 2011",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar el almanaque para el mes julio de 2011",
+            "comando": "cal 07 2011",
+            "categoria": 1
+        },
+        {
+            "descripcion": " colocar (declarar, ajustar) fecha y hora",
+            "comando": "date 04121700201100",
+            "categoria": 1
+        },
+        {
+            "descripcion": " guardar los cambios de fecha en la BIOS",
+            "comando": "clock -w",
+            "categoria": 1
+        },
+        {
+            "descripcion": " apagar el sistema (1)",
+            "comando": "shutdown -h now",
+            "categoria": 1
+        },
+        {
+            "descripcion": " apagar el sistema (2)",
+            "comando": "init 0",
+            "categoria": 1
+        },
+        {
+            "descripcion": " apagar el sistema (3)",
+            "comando": "telinit 0",
+            "categoria": 1
+        },
+        {
+            "descripcion": " apagar el sistema (4)",
+            "comando": "halt",
+            "categoria": 1
+        },
+        {
+            "descripcion": "minutes &",
+            "comando": "shutdown -h hours",
+            "categoria": 1
+        },
+        {
+            "descripcion": " cancelar un apagado planificado del sistema",
+            "comando": "shutdown -c",
+            "categoria": 1
+        },
+        {
+            "descripcion": " reiniciar (1)",
+            "comando": "shutdown -r now",
+            "categoria": 1
+        },
+        {
+            "descripcion": " reiniciar (2)",
+            "comando": "reboot",
+            "categoria": 1
+        },
+        {
+            "descripcion": " cerrar sesion",
+            "comando": "logout",
+            "categoria": 1
+        },
+        {
+            "descripcion": " entrar en el directorio home",
+            "comando": "cd /home",
+            "categoria": 1
+        },
+        {
+            "descripcion": " retroceder un nivel",
+            "comando": "cd ",
+            "categoria": 1
+        },
+        {
+            "descripcion": " retroceder 2 niveles",
+            "comando": "cd /",
+            "categoria": 1
+        },
+        {
+            "descripcion": " ir al directorio raiz",
+            "comando": "cd",
+            "categoria": 1
+        },
+        {
+            "descripcion": " ir al directorio user1",
+            "comando": "cd ~user1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " ir (regresar) al directorio anterior",
+            "comando": "cd -",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar el camino del directorio de trabajo",
+            "comando": "pwd",
+            "categoria": 1
+        },
+        {
+            "descripcion": " ver los ficheros de un directorio",
+            "comando": "ls",
+            "categoria": 1
+        },
+        {
+            "descripcion": " ver los ficheros de un directorio",
+            "comando": "ls -F",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar los detalles de ficheros y carpetas de un directorio",
+            "comando": "ls -l",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar los ficheros ocultos",
+            "comando": "ls -a",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar los ficheros y carpetas que contienen numeros",
+            "comando": "ls *[0-9]*",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar los ficheros y carpetas en forma de arbol comenzando por la raiz(1)",
+            "comando": "tree",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar los ficheros y carpetas en forma de arbol comenzando por la raiz(2)",
+            "comando": "lstree",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear una carpeta o directorio con nombre dir1",
+            "comando": "mkdir dir1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear dos carpetas o directorios simultaneamente (Crear dos directorios a la vez)",
+            "comando": "mkdir dir1 dir2",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear un arbol de directorios",
+            "comando": "mkdir -p /tmp/dir1/dir2",
+            "categoria": 1
+        },
+        {
+            "descripcion": " borrar el fichero llamado file1",
+            "comando": "rm -f file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " borrar la carpeta llamada dir1",
+            "comando": "rmdir dir1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " eliminar una carpeta llamada dir1 con su contenido de forma recursiva (Si lo borro recursivo estoy diciendo que es con su contenido)",
+            "comando": "rm -rf dir1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " borrar dos carpetas (directorios) con su contenido de forma recursiva",
+            "comando": "rm -rf dir1 dir2",
+            "categoria": 1
+        },
+        {
+            "descripcion": " renombrar o mover un fichero o carpeta (directorio)",
+            "comando": "mv dir1 new_dir",
+            "categoria": 1
+        },
+        {
+            "descripcion": " copiar un fichero",
+            "comando": "cp file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " copiar dos ficheros al unisono",
+            "comando": "cp file1 file2",
+            "categoria": 1
+        },
+        {
+            "descripcion": " copiar todos los ficheros de un directorio dentro del directorio de trabajo actual",
+            "comando": "cp dir /* ",
+            "categoria": 1
+        },
+        {
+            "descripcion": " copiar un directorio dentro del directorio actual de trabajo",
+            "comando": "cp -a /tmp/dir1 ",
+            "categoria": 1
+        },
+        {
+            "descripcion": " copiar un directorio",
+            "comando": "cp -a dir1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " copiar dos directorio al unisono",
+            "comando": "cp -a dir1 dir2",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear un enlace simbolico al fichero o directorio",
+            "comando": "ln -s file1 lnk1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear un enlace fisico al fichero o directorio",
+            "comando": "ln file1 lnk1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " modificar el tiempo real (tiempo de creacion) de un fichero o directorio",
+            "comando": "touch -t 0712250000 file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " salida (volcado en pantalla) del tipo mime de un fichero texto",
+            "comando": "file file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " listas de cifrados conocidos",
+            "comando": "iconv -l",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crea una nueva forma del fichero de entrada asumiendo que esta codificado en fromEncoding y convirtiendolo a ToEncoding",
+            "comando": "iconv -f fromEncoding -t toEncoding inputFile > outputFile",
+            "categoria": 1
+        },
+        {
+            "descripcion": " agrupar ficheros redimensionados en el directorio actual y enviarlos a directorios en vistas de miniaturas (requiere convertir desde ImagemagicK)",
+            "comando": "find  -maxdepth 1 -name *jpg -print -exec convert {} -resize 80*60 thumbs/{} \\;",
+            "categoria": 1
+        },
+        {
+            "descripcion": " buscar fichero y directorio a partir de la raiz del sistema",
+            "comando": "find / -name file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " buscar ficheros y directorios pertenecientes al usuario user1",
+            "comando": "find / -user user1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " buscar ficheros con extension  bin dentro del directorio / home/user1",
+            "comando": "find /home/user1 -name \\*bin",
+            "categoria": 1
+        },
+        {
+            "descripcion": " buscar ficheros binarios no usados en los ultimos 100 dias",
+            "comando": "find /usr/bin -type f -atime +100",
+            "categoria": 1
+        },
+        {
+            "descripcion": " buscar ficheros creados o cambiados dentro de los ultimos 10 dias",
+            "comando": "find /usr/bin -type f -mtime -10",
+            "categoria": 1
+        },
+        {
+            "descripcion": " buscar ficheros con extension rpm y modificar permisos",
+            "comando": "find / -name \\*rpm -exec chmod 755 {} \\;",
+            "categoria": 1
+        },
+        {
+            "descripcion": " Buscar ficheros con extension rpm ignorando los dispositivos removibles como cdrom, pen-drive, etc",
+            "comando": "find / -xdev -name \\*rpm",
+            "categoria": 1
+        },
+        {
+            "descripcion": " encuentra ficheros con extension ps ejecutados primeramente con el command updatedb",
+            "comando": "locate \\*ps",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar la ubicacion de un fichero binario, de ayuda o fuente En este caso pregunta donde esta el comando halt",
+            "comando": "whereis halt",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar la senda completa (el camino completo) a un binario / ejecutable",
+            "comando": "which halt",
+            "categoria": 1
+        },
+        {
+            "descripcion": " montar un disco llamado hda2 Verifique primero la existencia del directorio / mnt/hda2; si no esta, debe crearlo",
+            "comando": "mount /dev/hda2 /mnt/hda2",
+            "categoria": 1
+        },
+        {
+            "descripcion": " desmontar un disco llamado hda2 Salir primero desde el punto / mnt/hda2",
+            "comando": "umount /dev/hda2",
+            "categoria": 1
+        },
+        {
+            "descripcion": " forzar el desmontaje cuando el dispositivo esta ocupado",
+            "comando": "fuser -km /mnt/hda2",
+            "categoria": 1
+        },
+        {
+            "descripcion": " correr el desmontaje sin leer el fichero /etc/mtab Util cuando el fichero es de solo lectura o el disco duro esta lleno",
+            "comando": "umount -n /mnt/hda2",
+            "categoria": 1
+        },
+        {
+            "descripcion": " montar un disco flexible (floppy)",
+            "comando": "mount /dev/fd0 /mnt/floppy",
+            "categoria": 1
+        },
+        {
+            "descripcion": " montar un cdrom / dvdrom",
+            "comando": "mount /dev/cdrom /mnt/cdrom",
+            "categoria": 1
+        },
+        {
+            "descripcion": " montar un cd regrabable o un dvdrom",
+            "comando": "mount /dev/hdc /mnt/cdrecorder",
+            "categoria": 1
+        },
+        {
+            "descripcion": " montar un cd regrabable / dvdrom (un dvd)",
+            "comando": "mount /dev/hdb /mnt/cdrecorder",
+            "categoria": 1
+        },
+        {
+            "descripcion": " montar un fichero o una imagen iso",
+            "comando": "mount -o loop fileiso /mnt/cdrom",
+            "categoria": 1
+        },
+        {
+            "descripcion": " montar un sistema de ficheros FAT32",
+            "comando": "mount -t vfat /dev/hda5 /mnt/hda5",
+            "categoria": 1
+        },
+        {
+            "descripcion": " montar un usb pen-drive o una memoria (sin especificar el tipo de sistema de ficheros)",
+            "comando": "mount /dev/sda1 /mnt/usbdisk",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar una lista de las particiones montadas",
+            "comando": "df -h",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar el tamano de los ficheros y directorios ordenados por tamano",
+            "comando": "ls -lSr |more",
+            "categoria": 1
+        },
+        {
+            "descripcion": " Estimar el espacio usado por el directorio dir1",
+            "comando": "du -sh dir1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar el tamano de los ficheros y directorios ordenados por tamano",
+            "comando": "du -sk * | sort -rn",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar el espacio usado por los paquetes rpm instalados organizados por tamano (Fedora, Redhat y otros)",
+            "comando": "rpm -q -a -qf %10{SIZE}t%{NAME}n | sort -k1,1n",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar el espacio usado por los paquetes instalados, organizados por tamano (Ubuntu, Debian y otros)",
+            "comando": "dpkg-query -W -f=${Installed-Size;10}t${Package}n | sort -k1,1n",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear un nuevo grupo",
+            "comando": "groupadd nombre_del_grupo",
+            "categoria": 1
+        },
+        {
+            "descripcion": " borrar un grupo",
+            "comando": "groupdel nombre_del_grupo",
+            "categoria": 1
+        },
+        {
+            "descripcion": " renombrar un grupo",
+            "comando": "groupmod -n nuevo_nombre_del_grupo viejo_nombre_del_grupo",
+            "categoria": 1
+        },
+        {
+            "descripcion": " Crear un nuevo usuario perteneciente al grupo admin",
+            "comando": "useradd -c Name Surname  -g admin -d /home/user1 -s /bin/bash user1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear un nuevo usuario",
+            "comando": "useradd user1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " borrar un usuario (-r elimina el directorio Home)",
+            "comando": "userdel -r user1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " cambiar los atributos del usuario",
+            "comando": "usermod -c User FTP -g system -d /ftp/user1 -s /bin/nologin user1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " cambiar contrasena",
+            "comando": "passwd",
+            "categoria": 1
+        },
+        {
+            "descripcion": " cambiar la contrasena de un usuario (solamente por root)",
+            "comando": "passwd user1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " colocar un plazo para la contrasena del usuario En este caso dice que la clave expira el 31 de diciembre de 2011",
+            "comando": "chage -E 2011-12-31 user1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " chequear la sintaxis correcta el formato de fichero de /etc/passwd y la existencia de usuarios",
+            "comando": "pwck",
+            "categoria": 1
+        },
+        {
+            "descripcion": " chequear la sintaxis correcta y el formato del fichero /etc/group y la existencia de grupos",
+            "comando": "grpck",
+            "categoria": 1
+        },
+        {
+            "descripcion": " registra a un nuevo grupo para cambiar el grupo predeterminado de los ficheros creados recientemente",
+            "comando": "newgrp group_name",
+            "categoria": 1
+        },
+        {
+            "descripcion": " Mostrar permisos",
+            "comando": "ls -lh",
+            "categoria": 1
+        },
+        {
+            "descripcion": " dividir la terminal en 5 columnas",
+            "comando": "ls /tmp | pr -T5 -W$COLUMNS",
+            "categoria": 1
+        },
+        {
+            "descripcion": " colocar permisos de lectura , escritura (w) y ejecucion(x) al propietario (u), al grupo (g) y a otros (o) sobre el directorio directory1",
+            "comando": "chmod ugo+rwx directory1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " quitar permiso de lectura , escritura (w) y (x) ejecucion al grupo (g) y otros (o) sobre el directorio directory1",
+            "comando": "chmod go-rwx directory1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " cambiar el dueno de un fichero",
+            "comando": "chown user1 file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " cambiar el propietario de un directorio y de todos los ficheros y directorios contenidos dentro",
+            "comando": "chown -R user1 directory1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " cambiar grupo de ficheros",
+            "comando": "chgrp group1 file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": "group1 file1",
+            "comando": "chown user1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " visualizar todos los ficheros del sistema con SUID configurado",
+            "comando": "find / -perm -u+s",
+            "categoria": 1
+        },
+        {
+            "descripcion": " colocar el bit SUID en un fichero binario El usuario que corriendo ese fichero adquiere los mismos privilegios como dueno",
+            "comando": "chmod u+s /bin/file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " deshabilitar el bit SUID en un fichero binario",
+            "comando": "chmod u-s /bin/file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " colocar un bit SGID en un directorio -similar al SUID pero por directorio",
+            "comando": "chmod g+s /home/public",
+            "categoria": 1
+        },
+        {
+            "descripcion": " desabilitar un bit SGID en un directorio",
+            "comando": "chmod g-s /home/public",
+            "categoria": 1
+        },
+        {
+            "descripcion": " colocar un bit STIKY en un directorio Permite el borrado de ficheros solamente a los duenos legitimos",
+            "comando": "chmod o+t /home/public",
+            "categoria": 1
+        },
+        {
+            "descripcion": " desabilitar un bit STIKY en un directorio",
+            "comando": "chmod o-t /home/public",
+            "categoria": 1
+        },
+        {
+            "descripcion": " permite escribir abriendo un fichero solamente modo append",
+            "comando": "chattr +a file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " permite que un fichero sea comprimido / descomprimido automaticamente",
+            "comando": "chattr +c file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " asegura que el programa ignore borrar los ficheros durante la copia de seguridad",
+            "comando": "chattr +d file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " convierte el fichero en invariable, por lo que no puede ser eliminado, alterado, renombrado, ni enlazado",
+            "comando": "chattr +i file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " permite que un fichero sea borrado de forma segura",
+            "comando": "chattr +s file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " asegura que un fichero sea modificado, los cambios son escritos en modo synchronous como con sync",
+            "comando": "chattr +S file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " te permite recuperar el contenido de un fichero aun si este esta cancelado",
+            "comando": "chattr +u file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar atributos especiales",
+            "comando": "lsattr",
+            "categoria": 1
+        },
+        {
+            "descripcion": " descomprime in fichero llamado file1bz2",
+            "comando": "bunzip2 file1bz2",
+            "categoria": 1
+        },
+        {
+            "descripcion": " comprime un fichero llamado file1",
+            "comando": "bzip2 file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " descomprime un fichero llamado file1gz",
+            "comando": "gunzip file1gz",
+            "categoria": 1
+        },
+        {
+            "descripcion": " comprime un fichero llamado file1",
+            "comando": "gzip file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " comprime con compresion maxima",
+            "comando": "gzip -9 file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear un fichero rar llamado file1rar",
+            "comando": "rar a file1rar test_file",
+            "categoria": 1
+        },
+        {
+            "descripcion": " comprimir file1, file2 y dir1 simultaneamente",
+            "comando": "rar a file1rar file1 file2 dir1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " descomprimir archivo rar",
+            "comando": "rar x file1rar",
+            "categoria": 1
+        },
+        {
+            "descripcion": " descomprimir archivo rar",
+            "comando": "unrar x file1rar",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear un tarball descomprimido",
+            "comando": "tar -cvf archivetar file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear un archivo conteniendo file1, file2 ydir1",
+            "comando": "tar -cvf archivetar file1 file2 dir1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar los contenidos de un archivo",
+            "comando": "tar -tf archivetar",
+            "categoria": 1
+        },
+        {
+            "descripcion": " extraer un tarball",
+            "comando": "tar -xvf archivetar",
+            "categoria": 1
+        },
+        {
+            "descripcion": " extraer un tarball en / tmp",
+            "comando": "tar -xvf archivetar -C /tmp",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear un tarball comprimido dentro de bzip2",
+            "comando": "tar -cvfj archivetarbz2 dir1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " descomprimir un archivo tar comprimido en bzip2",
+            "comando": "tar -xvfj archivetarbz2",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear un tarball comprimido en gzip",
+            "comando": "tar -cvfz archivetargz dir1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " descomprimir un archive tar comprimido en gzip",
+            "comando": "tar -xvfz archivetargz",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear un archivo comprimido en zip",
+            "comando": "zip file1zip file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " comprimir, en zip, varios archivos y directorios de forma simultanea",
+            "comando": "zip -r file1zip file1 file2 dir1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " descomprimir un archivo zip",
+            "comando": "unzip file1zip",
+            "categoria": 1
+        },
+        {
+            "descripcion": " instalar un paquete rpm",
+            "comando": "rpm -ivh packagerpm",
+            "categoria": 1
+        },
+        {
+            "descripcion": " instalar un paquete rpm ignorando las peticiones de dependencias",
+            "comando": "rpm -ivh -nodeeps packagerpm",
+            "categoria": 1
+        },
+        {
+            "descripcion": " actualizar un paquete rpm sin cambiar la configuracion de los ficheros",
+            "comando": "rpm -U packagerpm",
+            "categoria": 1
+        },
+        {
+            "descripcion": " actualizar un paquete rpm solamente si este esta instalado",
+            "comando": "rpm -F packagerpm",
+            "categoria": 1
+        },
+        {
+            "descripcion": " eliminar un paquete rpm",
+            "comando": "rpm -e package_namerpm",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar todos los paquetes rpm instalados en el sistema",
+            "comando": "rpm -qa",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar todos los paquetes rpm con el nombre httpd",
+            "comando": "rpm -qa | grep httpd",
+            "categoria": 1
+        },
+        {
+            "descripcion": " obtener informacion en un paquete especifico instalado",
+            "comando": "rpm -qi package_name",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostar los paquetes rpm de un grupo software",
+            "comando": "rpm -qg System Environment/Daemons",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar lista de ficheros dados por un paquete rpm instalado",
+            "comando": "rpm -ql package_name",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar lista de configuracion de ficheros dados por un paquete rpm instalado",
+            "comando": "rpm -qc package_name",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar lista de dependencias solicitada para un paquete rpm",
+            "comando": "rpm -q package_name -whatrequires",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostar la capacidad dada por un paquete rpm",
+            "comando": "rpm -q package_name -whatprovides",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar los scripts comenzados durante la instalacion /eliminacion",
+            "comando": "rpm -q package_name -scripts",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostar el historial de revisions de un paquete rpm",
+            "comando": "rpm -q package_name -changelog",
+            "categoria": 1
+        },
+        {
+            "descripcion": " verificar cual paquete rpm pertenece a un fichero dado",
+            "comando": "rpm -qf /etc/httpd/conf/httpdconf",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar lista de ficheros dados por un paquete rpm que aun no ha sido instalado",
+            "comando": "rpm -qp packagerpm -l",
+            "categoria": 1
+        },
+        {
+            "descripcion": " importar la firma digital de la llave publica",
+            "comando": "rpm -import /media/cdrom/RPM-GPG-KEY",
+            "categoria": 1
+        },
+        {
+            "descripcion": " verificar la integridad de un paquete rpm",
+            "comando": "rpm -checksig packagerpm",
+            "categoria": 1
+        },
+        {
+            "descripcion": " verificar la integridad de todos los paquetes rpm instalados",
+            "comando": "rpm -qa gpg-pubkey",
+            "categoria": 1
+        },
+        {
+            "descripcion": " chequear el tamano del fichero, licencias, tipos, dueno, grupo, chequeo de resumen de MD5 y ultima modificacion",
+            "comando": "rpm -V package_name",
+            "categoria": 1
+        },
+        {
+            "descripcion": " chequear todos los paquetes rpm instalados en el sistema Usar con cuidado",
+            "comando": "rpm -Va",
+            "categoria": 1
+        },
+        {
+            "descripcion": " verificar un paquete rpm no instalado todavia",
+            "comando": "rpm -Vp packagerpm",
+            "categoria": 1
+        },
+        {
+            "descripcion": " extraer fichero ejecutable desde un paquete rpm",
+            "comando": "rpm2cpio packagerpm | cpio -extract -make-directories *bin*",
+            "categoria": 1
+        },
+        {
+            "descripcion": " instalar un paquete construido desde una fuente rpm",
+            "comando": "rpm -ivh /usr/src/redhat/RPMS/`arch`/packagerpm",
+            "categoria": 1
+        },
+        {
+            "descripcion": " construir un paquete rpm desde una fuente rpm",
+            "comando": "rpmbuild -rebuild package_namesrcrpm",
+            "categoria": 1
+        },
+        {
+            "descripcion": " descargar e instalar un paquete rpm",
+            "comando": "yum install package_name",
+            "categoria": 1
+        },
+        {
+            "descripcion": " este instalara un RPM y tratara de resolver todas las dependencies para ti, usando tus repositorios",
+            "comando": "yum localinstall package_namerpm",
+            "categoria": 1
+        },
+        {
+            "descripcion": " actualizar todos los paquetes rpm instalados en el sistema",
+            "comando": "yum update package_namerpm",
+            "categoria": 1
+        },
+        {
+            "descripcion": " modernizar / actualizar un paquete rpm",
+            "comando": "yum update package_name",
+            "categoria": 1
+        },
+        {
+            "descripcion": " eliminar un paquete rpm",
+            "comando": "yum remove package_name",
+            "categoria": 1
+        },
+        {
+            "descripcion": " listar todos los paquetes instalados en el sistema",
+            "comando": "yum list",
+            "categoria": 1
+        },
+        {
+            "descripcion": " Encontrar un paquete en repositorio rpm",
+            "comando": "yum search package_name",
+            "categoria": 1
+        },
+        {
+            "descripcion": " limpiar un cache rpm borrando los paquetes descargados",
+            "comando": "yum clean packages",
+            "categoria": 1
+        },
+        {
+            "descripcion": " eliminar todos los ficheros de encabezamiento que el sistema usa para resolver la dependencia",
+            "comando": "yum clean headers",
+            "categoria": 1
+        },
+        {
+            "descripcion": " eliminar desde los paquetes cache y ficheros de encabezado",
+            "comando": "yum clean all",
+            "categoria": 1
+        },
+        {
+            "descripcion": " instalar / actualizar un paquete deb",
+            "comando": "dpkg -i packagedeb",
+            "categoria": 1
+        },
+        {
+            "descripcion": " eliminar un paquete deb del sistema",
+            "comando": "dpkg -r package_name",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar todos los paquetes deb instalados en el sistema",
+            "comando": "dpkg -l",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar todos los paquetes deb con el nombre httpd",
+            "comando": "dpkg -l | grep httpd",
+            "categoria": 1
+        },
+        {
+            "descripcion": " obtener informacion en un paquete especifico instalado en el sistema",
+            "comando": "dpkg -s package_name",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostar lista de ficheros dados por un paquete instalado en el sistema",
+            "comando": "dpkg -L package_name",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar lista de ficheros dados por un paquete no instalado todavia",
+            "comando": "dpkg -contents packagedeb",
+            "categoria": 1
+        },
+        {
+            "descripcion": " verificar cual paquete pertenece a un fichero dado",
+            "comando": "dpkg -S /bin/ping",
+            "categoria": 1
+        },
+        {
+            "descripcion": " instalar / actualizar un paquete deb",
+            "comando": "apt-get install package_name",
+            "categoria": 1
+        },
+        {
+            "descripcion": " instalar / actualizar un paquete deb desde un cdrom",
+            "comando": "apt-cdrom install package_name",
+            "categoria": 1
+        },
+        {
+            "descripcion": " actualizar la lista de paquetes",
+            "comando": "apt-get update",
+            "categoria": 1
+        },
+        {
+            "descripcion": " actualizar todos los paquetes instalados",
+            "comando": "apt-get upgrade",
+            "categoria": 1
+        },
+        {
+            "descripcion": " eliminar un paquete deb del sistema",
+            "comando": "apt-get remove package_name",
+            "categoria": 1
+        },
+        {
+            "descripcion": " verificar la correcta resolucion de las dependencias",
+            "comando": "apt-get check",
+            "categoria": 1
+        },
+        {
+            "descripcion": " limpiar cache desde los paquetes descargados",
+            "comando": "apt-get clean",
+            "categoria": 1
+        },
+        {
+            "descripcion": " retorna lista de paquetes que corresponde a la serie paquetes buscados",
+            "comando": "apt-cache search searched-package",
+            "categoria": 1
+        },
+        {
+            "descripcion": " ver los contenidos de un fichero comenzando desde la primera hilera",
+            "comando": "cat file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " ver los contenidos de un fichero comenzando desde la ultima linea",
+            "comando": "tac file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " ver el contenido a lo largo de un fichero",
+            "comando": "more file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " parecido al commando more pero permite salvar el movimiento en el fichero asi como el movimiento hacia atras",
+            "comando": "less file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " ver las dos primeras lineas de un fichero",
+            "comando": "head -2 file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " ver las dos ultimas lineas de un fichero",
+            "comando": "tail -2 file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " ver en tiempo real que ha sido anadido al fichero",
+            "comando": "tail -f /var/log/messages",
+            "categoria": 1
+        },
+        {
+            "descripcion": " sintaxis general para la manipulacion de texto utilizando PIPE, STDIN y STDOUT",
+            "comando": "cat file1 file2  | command <> file1_intxt_or_file1_outtxt",
+            "categoria": 1
+        },
+        {
+            "descripcion": " sintaxis general para manipular un texto de un fichero y escribir el resultado en un fichero nuevo",
+            "comando": "cat file1 | command( sed, grep, awk, grep, etc) > resulttxt",
+            "categoria": 1
+        },
+        {
+            "descripcion": " sintaxis general para manipular un texto de un fichero y anadir resultado en un fichero existente",
+            "comando": "cat file1 | command( sed, grep, awk, grep, etc)  resulttxt",
+            "categoria": 1
+        },
+        {
+            "descripcion": " buscar palabras Aug en el fichero /var/log/messages",
+            "comando": "grep Aug /var/log/messages",
+            "categoria": 1
+        },
+        {
+            "descripcion": " buscar palabras que comienzan con Aug en fichero /var/log/messages",
+            "comando": "grep ^Aug /var/log/messages",
+            "categoria": 1
+        },
+        {
+            "descripcion": " seleccionar todas las lineas del fichero /var/log/messages que contienen numeros",
+            "comando": "grep [0-9] /var/log/messages",
+            "categoria": 1
+        },
+        {
+            "descripcion": " buscar la cadena Aug en el directorio /var/log y debajo",
+            "comando": "grep Aug -R /var/log/*",
+            "categoria": 1
+        },
+        {
+            "descripcion": " reubicar string1 con string2 en ejemplotxt",
+            "comando": "sed s/stringa1/stringa2/g exampletxt",
+            "categoria": 1
+        },
+        {
+            "descripcion": " eliminar todas las lineas en blanco desde el ejemplotxt",
+            "comando": "sed /^$/d exampletxt",
+            "categoria": 1
+        },
+        {
+            "descripcion": " eliminar comentarios y lineas en blanco de ejemplotxt",
+            "comando": "sed / *#/d; /^$/d exampletxt",
+            "categoria": 1
+        },
+        {
+            "descripcion": "lower",
+            "comando": "echo esempio | tr [",
+            "categoria": 1
+        },
+        {
+            "descripcion": " elimina la primera linea del fichero ejemplotxt",
+            "comando": "sed -e 1d resulttxt",
+            "categoria": 1
+        },
+        {
+            "descripcion": " visualizar solamente las lineas que contienen la palabra string1",
+            "comando": "sed -n /stringa1/p",
+            "categoria": 1
+        },
+        {
+            "descripcion": " convertir un formato de fichero texto desde MSDOS a UNIX",
+            "comando": "dos2unix filedostxt fileunixtxt",
+            "categoria": 1
+        },
+        {
+            "descripcion": " convertir un formato de fichero de texto desde UNIX a MSDOS",
+            "comando": "unix2dos fileunixtxt filedostxt",
+            "categoria": 1
+        },
+        {
+            "descripcion": " convertir un fichero de texto en html",
+            "comando": "recode HTML < pagetxt > pagehtml",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar todas las conversiones de formato disponibles",
+            "comando": "recode -l | more",
+            "categoria": 1
+        },
+        {
+            "descripcion": " Chequear los bloques defectuosos en el disco hda1",
+            "comando": "badblocks -v /dev/hda1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " reparar / chequear la integridad del fichero del sistema Linux en el disco hda1",
+            "comando": "fsck /dev/hda1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " reparar / chequear la integridad del fichero del sistema ext 2 en el disco hda1",
+            "comando": "fsckext2 /dev/hda1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " reparar / chequear la integridad del fichero del sistema ext 2 en el disco hda1",
+            "comando": "e2fsck /dev/hda1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " reparar / chequear la integridad del fichero del sistema ext 3 en el disco hda1",
+            "comando": "e2fsck -j /dev/hda1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " reparar / chequear la integridad del fichero del sistema ext 3 en el disco hda1",
+            "comando": "fsckext3 /dev/hda1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " reparar / chequear la integridad del fichero sistema fat en el disco hda1",
+            "comando": "fsckvfat /dev/hda1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " reparar / chequear la integridad de un fichero del sistema dos en el disco hda1",
+            "comando": "fsckmsdos /dev/hda1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " reparar / chequear la integridad de un fichero del sistema dos en el disco hda1",
+            "comando": "dosfsck /dev/hda1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear un fichero de sistema tipo Linux en la particion hda1",
+            "comando": "mkfs /dev/hda1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear un fichero de sistema tipo Linux ext 2 en hda1",
+            "comando": "mke2fs /dev/hda1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear un fichero de sistema tipo Linux ext3 (periodico) en la particion hda1",
+            "comando": "mke2fs -j /dev/hda1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear un fichero de sistema FAT32 en hda1",
+            "comando": "mkfs -t vfat 32 -F /dev/hda1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " formatear un disco flooply",
+            "comando": "fdformat -n /dev/fd0",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear un fichero de sistema swap",
+            "comando": "mkswap /dev/hda3",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear fichero de sistema swap",
+            "comando": "mkswap /dev/hda3",
+            "categoria": 1
+        },
+        {
+            "descripcion": " activando una nueva particion swap",
+            "comando": "swapon /dev/hda3",
+            "categoria": 1
+        },
+        {
+            "descripcion": " activar dos particiones swap",
+            "comando": "swapon /dev/hda2 /dev/hdb3",
+            "categoria": 1
+        },
+        {
+            "descripcion": " hacer una salva completa del directorio /home",
+            "comando": "dump -0aj -f /tmp/home0bak /home",
+            "categoria": 1
+        },
+        {
+            "descripcion": " hacer una salva incremental del directorio /home",
+            "comando": "dump -1aj -f /tmp/home0bak /home",
+            "categoria": 1
+        },
+        {
+            "descripcion": " restaurando una salva interactivamente",
+            "comando": "restore -if /tmp/home0bak",
+            "categoria": 1
+        },
+        {
+            "descripcion": " sincronizacion entre directorios",
+            "comando": "rsync -rogpav -delete /home /tmp",
+            "categoria": 1
+        },
+        {
+            "descripcion": "/tmp",
+            "comando": "rsync -rogpav -e ssh -delete /home ip_address",
+            "categoria": 1
+        },
+        {
+            "descripcion": "/home/public /home/local",
+            "comando": "rsync -az -e ssh -delete ip_addr",
+            "categoria": 1
+        },
+        {
+            "descripcion": "/home/public",
+            "comando": "rsync -az -e ssh -delete /home/local ip_addr",
+            "categoria": 1
+        },
+        {
+            "descripcion": " hacer una salva de un disco duro en un host remoto a traves de ssh",
+            "comando": "dd bs=1M if=/dev/hda | gzip | ssh user@ip_addr dd of=hdagz",
+            "categoria": 1
+        },
+        {
+            "descripcion": " salvar el contenido de un disco duro a un fichero (En este caso el disco duro es sda y el fichero file1)",
+            "comando": "dd if=/dev/sda of=/tmp/file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " hacer una salva incremental del directorio /home/user",
+            "comando": "tar -Puf backuptar /home/user",
+            "categoria": 1
+        },
+        {
+            "descripcion": " copiar el contenido de un directorio en un directorio remoto a traves de ssh",
+            "comando": "( cd /tmp/local/ && tar c  ) | ssh -C user@ip_addr cd /home/share/ && tar x -p",
+            "categoria": 1
+        },
+        {
+            "descripcion": " copiar un directorio local en un directorio remoto a traves de ssh",
+            "comando": "( tar c /home ) | ssh -C user@ip_addr cd /home/backup-home && tar x -p",
+            "categoria": 1
+        },
+        {
+            "descripcion": " copia local conservando las licencias y enlaces desde un directorio a otro",
+            "comando": "tar cf -  | (cd /tmp/backup ; tar xf - )",
+            "categoria": 1
+        },
+        {
+            "descripcion": " encontrar y copiar todos los ficheros con extension txt de un directorio a otro",
+            "comando": "find /home/user1 -name *txt | xargs cp -av -target-directory=/home/backup/ -parents",
+            "categoria": 1
+        },
+        {
+            "descripcion": " encontrar todos los ficheros con extension log y hacer un archivo bzip",
+            "comando": "find /var/log -name *log | tar cv -files-from=- | bzip2 > logtarbz2",
+            "categoria": 1
+        },
+        {
+            "descripcion": " hacer una copia del MRB (Master Boot Record) a un disco floppy",
+            "comando": "dd if=/dev/hda of=/dev/fd0 bs=512 count=1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " restaurar la copia del MBR (Master Boot Record) salvada en un floppy",
+            "comando": "dd if=/dev/fd0 of=/dev/hda bs=512 count=1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " limpiar o borrar un cd regrabable",
+            "comando": "cdrecord -v gracetime=2 dev=/dev/cdrom -eject blank=fast -force",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear una imagen iso de cdrom en disco",
+            "comando": "mkisofs /dev/cdrom > cdiso",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear una imagen comprimida iso de cdrom en disco",
+            "comando": "mkisofs /dev/cdrom | gzip > cd_isogz",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear una imagen iso de un directorio",
+            "comando": "mkisofs -J -allow-leading-dots -R -V Label CD -iso-level 4 -o /cdiso data_cd",
+            "categoria": 1
+        },
+        {
+            "descripcion": " quemar una imagen iso",
+            "comando": "cdrecord -v dev=/dev/cdrom cdiso",
+            "categoria": 1
+        },
+        {
+            "descripcion": " quemar una imagen iso comprimida",
+            "comando": "gzip -dc cd_isogz | cdrecord dev=/dev/cdrom -",
+            "categoria": 1
+        },
+        {
+            "descripcion": " montar una imagen iso",
+            "comando": "mount -o loop cdiso /mnt/iso",
+            "categoria": 1
+        },
+        {
+            "descripcion": " llevar canciones de un cd a ficheros wav",
+            "comando": "cd-paranoia -B",
+            "categoria": 1
+        },
+        {
+            "descripcion": " llevar las 3 primeras canciones de un cd a ficheros wav",
+            "comando": "cd-paranoia - -3",
+            "categoria": 1
+        },
+        {
+            "descripcion": " escanear bus para identificar el canal scsi",
+            "comando": "cdrecord -scanbus",
+            "categoria": 1
+        },
+        {
+            "descripcion": " hacer funcionar un md5sum en un dispositivo, como un CD",
+            "comando": "dd if=/dev/hdc | md5sum",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar la configuracion de una tarjeta de red Ethernet",
+            "comando": "ifconfig eth0",
+            "categoria": 1
+        },
+        {
+            "descripcion": " activar una interface eth0",
+            "comando": "ifup eth0",
+            "categoria": 1
+        },
+        {
+            "descripcion": " deshabilitar una interface eth0",
+            "comando": "ifdown eth0",
+            "categoria": 1
+        },
+        {
+            "descripcion": " configurar una direccion IP",
+            "comando": "ifconfig eth0 19216811 netmask 2552552550",
+            "categoria": 1
+        },
+        {
+            "descripcion": " configurar eth0en modo comun para obtener los paquetes (sniffing)",
+            "comando": "ifconfig eth0 promisc",
+            "categoria": 1
+        },
+        {
+            "descripcion": " activar la interface eth0 en modo dhcp",
+            "comando": "dhclient eth0",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar mesa de recorrido",
+            "comando": "route -n",
+            "categoria": 1
+        },
+        {
+            "descripcion": " configurar entrada predeterminada",
+            "comando": "route add -net 0/0 gw IP_Gateway",
+            "categoria": 1
+        },
+        {
+            "descripcion": " configurar ruta estatica para buscar la red 19216800/16",
+            "comando": "route add -net 19216800 netmask 25525500 gw 19216811",
+            "categoria": 1
+        },
+        {
+            "descripcion": " eliminar la ruta estatica",
+            "comando": "route del 0/0 gw IP_gateway",
+            "categoria": 1
+        },
+        {
+            "descripcion": " activar el recorrido ip",
+            "comando": "echo 1 > /proc/sys/net/ipv4/ip_forward",
+            "categoria": 1
+        },
+        {
+            "descripcion": " buscar el nombre del host para resolver el nombre a una direccion ip(1)",
+            "comando": "host wwwexamplecom",
+            "categoria": 1
+        },
+        {
+            "descripcion": " buscar el nombre del host para resolver el nombre a una direcciom ip y viceversa(2)",
+            "comando": "nslookup wwwexamplecom",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostar el estado de enlace de todas las interfaces",
+            "comando": "ip link show",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostar el estado de enlace de eth0",
+            "comando": "mii-tool eth0",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar las estadisticas de tarjeta de red eth0",
+            "comando": "ethtool eth0",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar todas las conexiones de red activas y sus PID",
+            "comando": "netstat -tup",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar todos los servicios de escucha de red en el sistema y sus PID",
+            "comando": "netstat -tupl",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar todo el trafico HTTP",
+            "comando": "tcpdump tcp port 80",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar las redes inalambricas",
+            "comando": "iwlist scan",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar la configuracion de una tarjeta de red inalambrica",
+            "comando": "iwconfig eth1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " buscar en base de datos Whois",
+            "comando": "whois wwwexamplecom",
+            "categoria": 1
+        },
+        {
+            "descripcion": " resolucion de nombre de red bios",
+            "comando": "nbtscan ip_addr",
+            "categoria": 1
+        },
+        {
+            "descripcion": " resolucion de nombre de red bios",
+            "comando": "nmblookup -A ip_addr",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar acciones remotas de un host en windows",
+            "comando": "smbclient -L ip_addr/hostname",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar todas las cadenas de la tabla de filtro",
+            "comando": "iptables -t filter -L",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar todas las cadenas de la tabla nat",
+            "comando": "iptables -t nat -L",
+            "categoria": 1
+        },
+        {
+            "descripcion": " limpiar todas las reglas de la tabla de filtro",
+            "comando": "iptables -t filter -F",
+            "categoria": 1
+        },
+        {
+            "descripcion": " limpiar todas las reglas de la tabla nat",
+            "comando": "iptables -t nat -F",
+            "categoria": 1
+        },
+        {
+            "descripcion": " borrar cualquier cadena creada por el usuario",
+            "comando": "iptables -t filter -X",
+            "categoria": 1
+        },
+        {
+            "descripcion": " permitir las conexiones telnet para entar",
+            "comando": "iptables -t filter -A INPUT -p tcp -dport telnet -j ACCEPT",
+            "categoria": 1
+        },
+        {
+            "descripcion": " bloquear las conexiones HTTP para salir",
+            "comando": "iptables -t filter -A OUTPUT -p tcp -dport http -j DROP",
+            "categoria": 1
+        },
+        {
+            "descripcion": " permitir las conexiones POP a una cadena delantera",
+            "comando": "iptables -t filter -A FORWARD -p tcp -dport pop3 -j ACCEPT",
+            "categoria": 1
+        },
+        {
+            "descripcion": " registrando una cadena de entrada",
+            "comando": "iptables -t filter -A INPUT -j LOG -log-prefix DROP INPUT",
+            "categoria": 1
+        },
+        {
+            "descripcion": " configurar un PAT (Puerto de traduccion de direccion) en eth0, ocultando los paquetes de salida forzada",
+            "comando": "iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE",
+            "categoria": 1
+        },
+        {
+            "descripcion": "22",
+            "comando": "iptables -t nat -A PREROUTING -d 19216801 -p tcp -m tcp -dport 22 -j DNAT -to-destination 10002",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar las tareas de linux usando la mayoria cpu",
+            "comando": "top",
+            "categoria": 1
+        },
+        {
+            "descripcion": " muestra las tareas Linux",
+            "comando": "ps -eafw",
+            "categoria": 1
+        },
+        {
+            "descripcion": " muestra las tareas Linux en un modo jerarquico",
+            "comando": "ps -e -o pid,args -forest",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar un arbol sistema de procesos",
+            "comando": "pstree",
+            "categoria": 1
+        },
+        {
+            "descripcion": " forzar el cierre de un proceso y terminarlo",
+            "comando": "kill -9 ID_Processo",
+            "categoria": 1
+        },
+        {
+            "descripcion": " forzar un proceso para recargar la configuracion",
+            "comando": "kill -1 ID_Processo",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar una lista de ficheros abiertos por procesos",
+            "comando": "lsof -p $$",
+            "categoria": 1
+        },
+        {
+            "descripcion": " muestra una lista de ficheros abiertos en un camino dado del sistema",
+            "comando": "lsof /home/user1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar las llamadas del sistema hechas y recibidas por un proceso",
+            "comando": "strace -c ls >/dev/null",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar las llamadas a la biblioteca",
+            "comando": "strace -f -e open ls >/dev/null",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar interrupciones en tiempo real",
+            "comando": "watch -n1 cat /proc/interrupts",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar historial de reinicio",
+            "comando": "last reboot",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar el kernel cargado",
+            "comando": "lsmod",
+            "categoria": 1
+        },
+        {
+            "descripcion": " muestra el estado de la RAM en megabytes",
+            "comando": "free -m",
+            "categoria": 1
+        },
+        {
+            "descripcion": " monitorear la fiabilidad de un disco duro a traves de SMART",
+            "comando": "smartctl -A /dev/hda",
+            "categoria": 1
+        },
+        {
+            "descripcion": " chequear si SMART esta activado en un disco duro",
+            "comando": "smartctl -i /dev/hda",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar eventos inherentes al proceso de carga del kernel",
+            "comando": "tail /var/log/dmesg",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar los eventos del sistema",
+            "comando": "tail /var/log/messages",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar una lista de comandos que pertenecen a las palabras claves de un programa; son utiles cuando tu sabes que hace tu programa, pero de sconoces el nombre del comando",
+            "comando": "apropos keyword",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar las paginas del manual on-line; por ejemplo, en un comando ping, usar la opcion -k para encontrar cualquier comando relacionado",
+            "comando": "man ping",
+            "categoria": 1
+        },
+        {
+            "descripcion": " muestra la descripcion de lo que hace el programa",
+            "comando": "whatis keyword",
+            "categoria": 1
+        },
+        {
+            "descripcion": " crear un floppy boteable",
+            "comando": "mkbootdisk -device /dev/fd0 `uname -r`",
+            "categoria": 1
+        },
+        {
+            "descripcion": " codificar un fichero con guardia de seguridad GNU",
+            "comando": "gpg -c file1",
+            "categoria": 1
+        },
+        {
+            "descripcion": " decodificar un fichero con Guardia de seguridad GNU",
+            "comando": "gpg file1gpg",
+            "categoria": 1
+        },
+        {
+            "descripcion": " descargar un sitio web completo",
+            "comando": "wget -r wwwexamplecom",
+            "categoria": 1
+        },
+        {
+            "descripcion": " descargar un fichero con la posibilidad de parar la descargar y reanudar mas tarde",
+            "comando": "wget -c wwwexamplecom/fileiso",
+            "categoria": 1
+        },
+        {
+            "descripcion": "00",
+            "comando": "echo wget -c wwwexamplecom/filesiso | at 09",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar las bibliotecas compartidas requeridas por el programa ssh",
+            "comando": "ldd /usr/bin/ssh",
+            "categoria": 1
+        },
+        {
+            "descripcion": " colocar un alias para un commando -hh= Historial",
+            "comando": "alias hh=history",
+            "categoria": 1
+        },
+        {
+            "descripcion": " cambiar el comando Shell",
+            "comando": "chsh",
+            "categoria": 1
+        },
+        {
+            "descripcion": " es un comando adecuado para saber si tienes que hacer remoto en otra terminal",
+            "comando": "chsh -list-shells",
+            "categoria": 1
+        },
+        {
+            "descripcion": " mostrar quien esta registrado, e imprimir hora del ultimo sistema de importacion, procesos muertos, procesos de registro de sistema, procesos activos producidos por init, funcionamiento actual y ultimos cambios del reloj del sistema",
+            "comando": "who -a",
+            "categoria": 1
+        }
+    ]
+}
