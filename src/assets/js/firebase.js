@@ -49,21 +49,6 @@ db_fb.inicialice_query_co = function(){
 db_fb.inicialice_q = function(){
     this.queries = {"comandos":{"q":this.q_com,"d":this.data_co},"categorias":{"q":this.q_cat,"d":this.data_ca}}
 }
-// console.log(db_fb.firebaseConfig)
-// const firebaseConfig = {
-//     apiKey: "AIzaSyBCuYo9UyiOJbcRw3pAvPKUP0Fz67YMvQY",
-//     authDomain: "daphne-d6497.firebaseapp.com",
-//     projectId: "daphne-d6497",
-//     storageBucket: "daphne-d6497.appspot.com",
-//     messagingSenderId: "866108407577",
-//     appId: "1:866108407577:web:439988a15d75b636cd0f88",
-//     }
-// console.log(firebaseConfig)
-
-//const collection = co(db,'/categorias')
-
-// const q = query(co(db, "categorias"), where("name", "==", "python"));
-
 
 db_fb.get_d = function(documento){
     let querySnapshot = getDocs(this.queries[documento]['q']);
